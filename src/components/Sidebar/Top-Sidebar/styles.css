@@ -1,0 +1,30 @@
+.top-sidebar {
+    outline: 1px solid #f2f3f6;
+    background-color: hsl(255deg 100% 99%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    background-color: #2b00d4;
+    border-radius: 50%;
+    color: #fff;
+    /* width: 40px;
+    height: 40px; */
+    padding: 10px;
+}
+
+.company-name {
+    font-size: 24px;
+}
+
+.company-slogan {
+    color: hsl(232deg 10% 84%);
+    font-size: 14px;
+}

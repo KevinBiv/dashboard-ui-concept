@@ -1,0 +1,32 @@
+.middle-sidebar {
+    width: 100%;
+    overflow-x:hidden;
+    background-color: hsl(300deg 100% 100%);
+    outline: 1px solid #f2f3f6;
+}
+
+.middle-sidebar-container {
+    padding: 50px 20px;
+}
+
+.middle-sidebar-container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.middle-sidebar-container ul li button {
+    color: hsl(240deg 1% 60%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.middle-sidebar-container ul li button:hover {
+    color: hsl(252deg 100% 43%);
+}
