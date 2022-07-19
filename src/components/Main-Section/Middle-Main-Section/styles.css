@@ -15,3 +15,28 @@
     align-items: center;
     gap: 20px;
 }
+
+.middle-middle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    overflow-x: none;
+    overflow-y: scroll;
+}
+
+.middle-middle-container::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+}
+
+.middle-middle-container::-webkit-scrollbar-thumb {
+    background-color: #98989a;
+}
+
+.middle-middle-container .card{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
