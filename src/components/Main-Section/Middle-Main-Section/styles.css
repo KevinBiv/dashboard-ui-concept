@@ -1,0 +1,17 @@
+.middle-container {
+    padding: 20px 40px;
+}
+
+.top-middle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.top-middle-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
