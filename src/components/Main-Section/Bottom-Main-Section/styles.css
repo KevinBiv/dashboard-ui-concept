@@ -1,0 +1,25 @@
+.bottom-container {
+    margin-top: 100px;
+    padding: 20px 40px;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line-chart {
+    width: 50%;
+    height: 40vh;
+}
+
+.bar-chart {
+    width: 40%;
+    height: 40vh;
+}
+
+.upper-text {
+    margin-bottom: 30px;
+    background-color: red;
+}
