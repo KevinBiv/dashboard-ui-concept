@@ -63,3 +63,22 @@
     height: 20px;
     border-radius: 50%;
 }
+
+.premium-btn {
+    background-color: #2b00d4;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.bookmark-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* .bookmark {
+    background-color: #5c2785;
+}  */
